@@ -122,8 +122,8 @@ public class Login extends javax.swing.JFrame {
     private void AceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarActionPerformed
         // TODO add your handling code here:
         
-        win.Username = jTextField1.getText();
-        win.PassWord = new String(jPasswordField1.getPassword());
+        win.User = jTextField1.getText();
+        win.Pass = new String(jPasswordField1.getPassword());
         win.setVisible(true);
         win.dispose();
         
